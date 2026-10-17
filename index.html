@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="二极管、三极管、场效应管和运放的基础知识、分步例题、互动练习与电路教学演示。">
+  <title>模拟电子技术学习 · 模电研习室</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <script type="module" src="./js/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <div class="layout">
+    <aside class="sidebar" aria-label="学习导航">
+      <a class="brand" href="#main-content"><span class="brand-mark" aria-hidden="true">μ</span><span>模电研习室<small>ANALOG ELECTRONICS</small></span></a>
+      <p class="nav-label">学习模块</p>
+      <nav id="module-nav" aria-label="模块目录">
+        <a class="module-link" href="#diode-basics"><span class="module-number">01</span><span>二极管<small>偏置与恒压降模型</small></span></a>
+        <a class="module-link" href="#bjt-basics"><span class="module-number">02</span><span>三极管<small>偏置与工作状态</small></span></a>
+        <a class="module-link" href="#fet-basics"><span class="module-number">03</span><span>场效应管<small>栅压与漏极电流</small></span></a>
+        <a class="module-link" href="#opamp-basics"><span class="module-number">04</span><span>运算放大器<small>负反馈与输出限制</small></span></a>
+      </nav>
+      <div class="sidebar-note"><strong>一边学模电，一边学编程</strong><p>理解模型条件，自己动手计算，再调节参数核对。</p><p><a href="./tests/index.html">打开自动测试 →</a></p></div>
+    </aside>
+    <main id="main-content" tabindex="-1">
+      <header class="topbar"><span>我的学习空间</span><span class="stage-badge">场效应管进阶版 v2.0</span></header>
+      <section class="hero" aria-labelledby="page-title">
+        <p class="eyebrow">知识 · 例题 · 练习 · 电路探索</p>
+        <h1 id="page-title">从一个电路，<br>理解一个知识点。</h1>
+        <p class="hero-description">把模拟电子技术拆成看得懂的知识、算得清的例题和可以动手的探索。从器件模型出发，一步步理解电路。</p>
+        <a class="primary-link" href="#diode-basics">从二极管开始学习 <span aria-hidden="true">↘</span></a>
+        <div class="hero-footnote"><span class="dot" aria-hidden="true"></span>保留四基础模块 · 新增六组合 · 12 道新例题 · 18 道分步检验</div>
+      </section>
+      <section class="progress-card" aria-labelledby="progress-heading">
+        <h2 id="progress-heading">我的学习进度</h2>
+        <p id="progress-summary" role="status">正在读取浏览器记录…</p>
+        <p id="storage-notice" role="status">进度仅保存在当前浏览器中。</p>
+      </section>
+      <section id="lesson-content" aria-labelledby="map-heading">
+        <div class="section-heading"><div><p class="eyebrow">按模块探索</p><h2 id="map-heading">选择一个学习起点</h2></div></div>
+        <div class="topic-grid module-grid">
+          <a class="topic-card" href="#diode-basics"><span class="topic-index">01</span><h3>二极管</h3><p>偏置、单向导电与恒压降近似</p></a>
+          <a class="topic-card" href="#bjt-basics"><span class="topic-index">02</span><h3>三极管</h3><p>静态工作点与截止、放大、饱和</p></a>
+          <a class="topic-card" href="#fet-basics"><span class="topic-index">03</span><h3>场效应管</h3><p>增强/耗尽MOS、JFET的N/P沟道</p></a>
+          <a class="topic-card" href="#opamp-basics"><span class="topic-index">04</span><h3>运算放大器</h3><p>虚断、虚短、增益与输出限幅</p></a>
+        </div>
+      </section>
+      <div id="learning-units"><p class="loading-message">学习单元正在加载。如一直未显示，请确认通过 Live Server 访问，并查看浏览器控制台。</p></div>
+      <p class="dev-link"><a href="./tests/index.html">查看自动测试结果 →</a></p>
+      <footer><p>配合康华光《电子技术基础·模拟部分》第七版学习的原创基础讲解。模块编号不代表教材章号，本轮已核对第4章相关公式页；不覆盖整本教材。</p><p>电路演示采用注明条件的教学近似，不是通用电路仿真器。</p><p id="app-status" role="status">页面脚本尚未加载，请通过本地预览服务访问。</p><noscript><p>浏览器已禁用 JavaScript；启用后才能加载知识、练习与电路演示。</p></noscript></footer>
+    </main>
+  </div>
+</body>
+</html>
